@@ -1,0 +1,137 @@
+messages:
+  prefix: "§9§lBZSMP §8❘ §7"
+  join: "§8§l[§r§a☺§8§l] §7%player%"
+  join-title: "§7Willkommen §r§9%player%§8!"
+  join-subtitle: "§7Viel Spaß noch§8!"
+  leave: "§8§l[§r§4☹§8§l] §r§7%player%"
+  spawn-set: "§7Spawn-Position wurde gesetzt§8."
+  not-a-player: "Dieser Befehl kann nur von Spielern verwendet werden."
+  no-permission: "§cDu hast keine Berechtigung§8, §cdiesen Befehl zu verwenden§8."
+  starter-kit-received: "§7Du hast das §aStarter-Kit §7erhalten§8."
+  teleported-to-spawn: "§7Du wurdest zum §aSpawn §7teleportiert§8."
+  spawn-not-set: "§cSpawn-Position ist nicht gesetzt§8."
+
+starter-kit:
+  items:
+    item1:
+      type: IRON_SWORD
+      amount: 1
+      slot: 0
+      name: "§8→ §9Starter §7Schwert"
+      lore:
+        - "§f"
+        - "§f"
+        - "§8§o→ §7§oDas ist dein erstes Schwert§8."
+    item2:
+      type: STONE_AXE
+      amount: 1
+      slot: 1
+      name: "§8→ §9Starter §7Axt"
+      lore:
+        - "§f"
+        - "§f"
+        - "§8§o→ §7§oDas ist deine erste Axt§8§o."
+    item3:
+      type: STONE_PICKAXE
+      amount: 1
+      slot: 2
+      name: "§8→ §9Starter §7Spitzhacke"
+      lore:
+        - "§f"
+        - "§f"
+        - "§8§o→ §7§oDas ist deine erste Spitzhacke§8§o."
+    item4:
+      type: STONE_SHOVEL
+      amount: 1
+      slot: 3
+      name: "§8→ §9Starter §7Schaufel"
+      lore:
+        - "§f"
+        - "§f"
+        - "§8§o→ §7§oDas ist deine erste Schaufel§8§o."
+    item5:
+      type: BREAD
+      amount: 32
+      slot: 4
+      name: "§8→ §9Starter §7Brot"
+      lore:
+        - "§f"
+        - "§f"
+        - "§8§o→ §7§oDieses Brot hält dich satt§8§o."
+    item6:
+      type: COOKED_BEEF
+      amount: 20
+      slot: 5
+      name: "§8→ §9Starter §7Steak"
+      lore:
+        - "§f"
+        - "§f"
+        - "§8§o→ §7§oDieses Steak hält dich satt§8§o."
+    item7:
+      type: OAK_LOG
+      amount: 32
+      slot: 6
+      name: "§8→ §9Starter §7Holz"
+      lore:
+        - "§f"
+        - "§f"
+        - "§8§o→ §7§oDieses Holz hilft dir beim Bauen§8§o."
+    item8:
+      type: GOLDEN_SHOVEL
+      amount: 1
+      slot: 7
+      name: "§8→ §eClaim-Werkzeug"
+      lore:
+        - "§f"
+        - "§f"
+        - "§8§o→ §7§oNutze dieses Werkzeug§8§o,§7§o um dein Land zu sichern§8§o."
+  armor:
+    helmet:
+      type: CHAINMAIL_HELMET
+      name: "§8→ §9Starter §7Helm"
+      lore:
+        - "§f"
+        - "§f"
+        - "§8§o→ §7§oDein erster Schutz für den Kopf§8§o."
+    chestplate:
+      type: CHAINMAIL_CHESTPLATE
+      name: "§8→ §9Starter §7Brustplatte"
+      lore:
+        - "§f"
+        - "§f"
+        - "§8§o→ §7§oDein erster Schutz für die Brust§8§o."
+    leggings:
+      type: CHAINMAIL_LEGGINGS
+      name: "§8→ §9Starter §7Hose"
+      lore:
+        - "§f"
+        - "§f"
+        - "§8§o→ §7§oDein erster Schutz für die Beine§8§o."
+    boots:
+      type: CHAINMAIL_BOOTS
+      name: "§8→ §9Starter §7Stiefel"
+      lore:
+        - "§f"
+        - "§f"
+        - "§8§o→ §7§oDein erster Schutz für die Füße§8§o."
+
+death-messages:
+  prefix: "&x&F&B&0&8&0&8&lT&x&8&D&0&4&0&4&lO&x&1&F&0&0&0&0&lD §8❘ §7"
+  ENTITY_ATTACK: "§e%player% §7wurde von einem Mob getötet§8! §f☠"
+  FALL: "§e%player% §7ist aus großer Höhe gefallen§8! §f☠"
+  FIRE: "§e%player% §7wurde zu Asche verbrannt§8! §f☠"
+  DROWNING: "§e%player% §7hat vergessen zu schwimmen§8! §f☠"
+  LAVA: "§e%player% §7wurde von Lava verbrannt§8! §f☠"
+  SUFFOCATION: "§e%player% §7erstickte in einer Wand§8! §f☠"
+  POISON: "§e%player% §7wurde vergiftet§8! §f☠"
+  STARVATION: "§e%player% §7ist verhungert§8! §f☠"
+  LIGHTNING: "§e%player% §7wurde vom Blitz getroffen§8! §f☠"
+  MAGIC: "§e%player% §7wurde von Magie getötet§8! §f☠"
+  BLOCK_EXPLOSION: "§e%player% §7wurde von einer Block-Explosion in die Luft gejagt§8! §f☠"
+  ENTITY_EXPLOSION: "§e%player% §7wurde von einer Entitäten-Explosion in die Luft gejagt§8! §f☠"
+  VOID: "§e%player% §7ist in die Leere gefallen§8! §f☠"
+  HOT_FLOOR: "§e%player% §7hat den heißen Boden berührt§8! §f☠"
+  CACTUS: "§e%player% §7wurde von einem Kaktus gestochen§8! §f☠"
+  THORNS: "§e%player% §7wurde von Dornen verletzt§8! §f☠"
+  FALLING_BLOCK: "§e%player% §7wurde von einem fallenden Block zerdrückt§8! §f☠"
+

@@ -1,0 +1,13 @@
+name: BzSystem
+version: 'v1'
+main: de.datenflieger.bzSystem.BzSystem
+api-version: '1.21'
+website: https://github.com/Datenflieger
+commands:
+  spawn:
+  setspawn:
+    permission: bzsystem.setspawn
+  starterkit:
+    permission: bzsystem.starterkit
+  sign:
+    permission: bzsystem.sign.use
