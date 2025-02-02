@@ -31,16 +31,11 @@ public class SignCommand implements CommandExecutor {
 
     @Override
     public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {
-        if (sender == null || command == null || label == null || args == null) {
-            throw new IllegalArgumentException("Command parameters cannot be null");
-        }
 
-        if (!(sender instanceof Player)) {
+        if (!(sender instanceof Player player)) {
             sender.sendMessage(plugin.getConfig().getString("messages.prefix") + plugin.getConfig().getString("messages.not-a-player"));
             return true;
         }
-
-        Player player = (Player) sender;
 
         if (player.hasPermission("bzsmp.sign.use")) {
             ItemStack item = player.getInventory().getItemInMainHand();
